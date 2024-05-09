@@ -1,0 +1,94 @@
+*{
+  background-color: #0f0e0e;
+}
+.app {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+
+.title {
+  text-align: center;
+  color: #ccc;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+  
+}
+
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  color: #ccc;
+}
+
+.input-container button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #45a049;
+}
+
+.icon-button {
+  padding: 10px;
+}
+
+.notes-container .note {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: #ccc;
+}
+
+.notes-container .note p {
+  margin: 0;
+  flex: 1;
+}
+
+.note-actions button {
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.save-button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #45a049;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  background-color: #45a049;
+  color:#ccc;
+}
+.delete-button {
+  padding: 5px;
+  background-color: #ff4d4d;
+  color: #ff3333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #ff3333;
+  color: #333;
+}
